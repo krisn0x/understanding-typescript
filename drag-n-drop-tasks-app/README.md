@@ -2,8 +2,6 @@
 
 A small **TypeScript-based project management application** demonstrating object-oriented programming principles, state management, validation, and the HTML5 Drag & Drop API.  
 
----
-
 ## Features
 - Create new projects with **title, description, and people count**.
 - Projects are validated before creation (required fields, length, number limits).
@@ -12,8 +10,6 @@ A small **TypeScript-based project management application** demonstrating object
 - Centralized project state with the **singleton pattern**.
 - Reusable abstract base component for UI elements.
 - **Auto-bind decorator** for event handlers.
-
----
 
 ## Tech & Concepts Used
 - **TypeScript** with strict typing.
@@ -27,8 +23,6 @@ A small **TypeScript-based project management application** demonstrating object
   - Observer (state listeners).
 - **Generics** for type-safe listeners.
 - **Validation utility** with flexible rules.
-
----
 
 ## Project Structure
 ```drag-n-drop-tasks-app
@@ -62,22 +56,16 @@ Compile TypeScript in watch mode and serve HTML:
 npm start
 ```
 
----
-
-## 🖼️ Demo
+## Demo
 
 ![Demo](drag-n-drop-tasks-app/images/demo.gif)
 *(Demo of creating a project; dragging a project card from **Active** to **Finished** and back again.)*
 
----
-
-## 📚 Learning Resources
+## Learning Resources
 
 * [MDN Drag and Drop API](https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API)
 * [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
 * [SOLID Principles](https://en.wikipedia.org/wiki/SOLID)
-
----
 
 ## License
 
