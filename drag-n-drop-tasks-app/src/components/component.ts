@@ -1,4 +1,4 @@
-import { autobind } from "../util.js";
+import { autobind } from "../decorators/autobind.js";
 
 export abstract class Component<T extends HTMLElement, U extends HTMLElement> {
 
