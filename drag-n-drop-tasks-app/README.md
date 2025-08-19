@@ -28,10 +28,11 @@ A small **TypeScript-based project management application** demonstrating object
 ```drag-n-drop-tasks-app
 └── src/
     ├── components/         # UI components
-    └── models/             # Data models & enums
-├── contracts.ts            # Interfaces and types
-├── util.ts                 # Validation, decorator
-├── app.ts                  # App entry point & config
+    ├── decorators/         # Decorators
+    ├── models/             # Data models & enums
+    ├── state/              # State management class
+    ├── util/               # Validation and utils
+    └── app.ts              # App entry point & config
 ├── index.html              # Root HTML with templates
 └── app.css                 # Basic CSS styles
 ```
@@ -58,15 +59,11 @@ npm start
 
 ## Demo
 
-![Demo](drag-n-drop-tasks-app/images/demo.gif)
+![Demo](images/demo.gif)<br>
 *(Demo of creating a project; dragging a project card from **Active** to **Finished** and back again.)*
 
 ## Learning Resources
 
 * [MDN Drag and Drop API](https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API)
 * [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
-* [SOLID Principles](https://en.wikipedia.org/wiki/SOLID)
-
-## License
-
-MIT – free to use, modify, and learn from.
+* [SOLID Principles](https://en.wikipedia.org/wiki/SOLID) 
