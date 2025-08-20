@@ -44,8 +44,7 @@ A small **TypeScript-based project management application** demonstrating object
 ### 1) Clone & Install
 
 ```bash
-git clone https://github.com/krisn0x/understanding-typescript.git
-cd ./drag-n-drop-tasks-app
+git clone https://github.com/krisn0x/drag-n-drop-project-management-app.git
 npm install
 ```
 
